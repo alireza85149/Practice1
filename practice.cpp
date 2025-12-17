@@ -1,4 +1,6 @@
-
+#include <iostream>
+#include <cmath>
+using namespace std;
 int function2()
 {
     int n;
@@ -138,5 +140,15 @@ int entekhab(int k , int n){
     return a;
 }
 //third function
+int main(){
+    function2();
+    function1();
+    int n , m ;
+    cin>>n;
+    cin>>m;
+    cout<<KMM(n,m);
+    cout<<entekhab(n,m);
+    Bmm();
 
+}
 
